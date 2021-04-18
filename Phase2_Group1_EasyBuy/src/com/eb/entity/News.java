@@ -1,13 +1,13 @@
 package com.eb.entity;
 
 
-//新闻
+//����s
 public class News {
-	private int nid;  //新闻ID
-	private String uid;  //发布新闻管理员ID
-	private String nTitle; //新闻标题
+	private int nid;
+	private String uid;
+	private String nTitle;
 	
-	private String nContent; //新闻内容
+	private String nContent;
 
 	public int getNid() {
 		return nid;
