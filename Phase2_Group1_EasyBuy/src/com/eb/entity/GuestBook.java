@@ -3,7 +3,7 @@ package com.eb.entity;
 import java.util.Date;
 
 public class GuestBook {
-	private int gid;//515
+	private int gid;//
 	private String guestbook_content;
 	private String replay;
 	private Date guestbook_date;
