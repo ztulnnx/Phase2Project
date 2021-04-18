@@ -20,7 +20,7 @@ public class User {
 	
 	private List<ReceiverAddress> receiverAddress;
 
-	//获取字符串birth
+	//获取字符串birth,
 	public String getUserBirth() {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 		if(this.uBirth != null){//为什么要判断不为空?
