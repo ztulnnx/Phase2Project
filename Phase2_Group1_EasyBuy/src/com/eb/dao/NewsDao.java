@@ -1,7 +1,7 @@
 package com.eb.dao;
 
 
-//新闻
+//新闻s
 public class NewsDao {
 	private int nid;
 	private String uid;
