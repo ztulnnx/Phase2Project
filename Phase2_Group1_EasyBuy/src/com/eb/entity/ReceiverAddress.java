@@ -3,6 +3,7 @@ package com.eb.entity;
 public class ReceiverAddress {
 	private int rid;
 	private String  receiverAddress;
+	private int uid;
 	
 	public int getRid() {
 		return rid;
@@ -15,6 +16,12 @@ public class ReceiverAddress {
 	}
 	public void setReceiverAddress(String receiverAddress) {
 		this.receiverAddress = receiverAddress;
+	}
+	public int getUid() {
+		return uid;
+	}
+	public void setUid(int uid) {
+		this.uid = uid;
 	}
 	
 	
