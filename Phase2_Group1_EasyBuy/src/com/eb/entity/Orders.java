@@ -6,7 +6,7 @@ import java.util.Date;
 import java.util.List;
 
 public class Orders {
-	private int oid;
+	private int oid;	//订单id
 	private double money;	//订单总计金额
 	private Date ordertime;	//订单时间
 	private int oStatus;	//订单状态:0.待审核 1.审核通过 2.配货 3.返货 4.收货确认
