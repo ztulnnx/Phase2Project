@@ -1,11 +1,11 @@
 package com.eb.entity;
 
 public class Products_Category {
-   //鍝佺被ID
+   //品类编号
    private String cid;
-   //鍝佺被鍚嶇О
+   //品类名称
    private String categoryName;
-   //鐖剁骇鍝佺被ID213
+   //父级品类编号
    private String parent_category_id;
 public String getCid() {
 	return cid;
