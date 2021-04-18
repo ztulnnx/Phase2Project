@@ -5,7 +5,7 @@ public class Products_Category {
    private String cid;
    //品类名称
    private String categoryName;
-   //父级品类ID
+   //父级品类ID212
    private String parent_category_id;
 public String getCid() {
 	return cid;
